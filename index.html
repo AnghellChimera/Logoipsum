@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logoipsum</title>
+    <link rel="icon" href="assests/web-icon.png">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+    <!-- to make everything be in unversal position -->
+    <div class="page-box">
+        <!-- nagivation bar starts here -->
+        <section>
+            <div class="nav-bar">
+                <div id="logo-box">
+                    <img src="assests/Logo.png" alt="logo" id="logo">
+                </div>
+                <!-- mobile navigation -->
+                <div class="menu-bar">
+                    <a href="#" onclick=hidemenuBar()><i class="fa-solid fa-x hide"></i></a>
+                    <a href="#" class="mob-home" id="mob-item">Home</a>
+                    <a href="#" id="mob-item">Features</a>
+                    <a href="#" id="mob-item">Pricing</a>
+                    <a href="#" id="mob-item">Blog</a>
+                    <button type="button" id="mob-but">Get Started</button>
+                </div>
+                <!-- desktop navigation -->
+                <div id="nav-but">
+                    <a href="#" class="home-but" id="nav-hover">Home</a>
+                    <a href="#" id="nav-hover">Features</a>
+                    <a href="#" id="nav-hover">Pricing</a>
+                    <a href="#" id="nav-hover" class="blog">Blog</a>
+                </div>
+                <div class="reg-but">
+                    <button type="button" id="reg-but">Get Started</button>
+                </div>
+                <div class="hamburger">
+                    <ul>
+                        <li onclick=showmenuBar()><a id="ham" ><i class="fa-solid fa-bars menu"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- navigation bar ends here -->
+        <!-- hero section starts here -->
+        <section>
+            <div class="hero">
+                <div class="hero-text">
+                    <div class="hero-text-one">
+                        <h1 id="hero-text-one">Grow your
+                            subscription
+                            business</h1>
+                    </div>
+                    <div class="hero-text-two">
+                        <p id="hero-text-two">Outcome-centered products that reduce churn, optimize pricing, and grow
+                            your subscription
+                            business end-to-end.</p>
+                    </div>
+                    <div class="hero-but">
+                        <div id="hero-but-box"><button type="button" id="hero-but">Get Started</button>
+                            <a href="#"><img src="assests/Arrow.png" alt="Down Arrow" id="arrow"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-img"><img src="assests/1-man.png" alt="hero image" id="hero-pics"></div>
+            </div>
+        </section>
+        <!-- hero section end here -->
+        <!-- icon section starts here -->
+        <section>
+            <div class="icon-box">
+                <img src="assests/1-log.png" alt="icon" id="icon">
+                <img src="assests/2-log.png" alt="icon" id="icon">
+                <img src="assests/3-log.png" alt="icon" id="icon">
+                <img src="assests/4-log.png" alt="icon" id="icon">
+                <img src="assests/5-log.png" alt="icon" id="icon">
+            </div>
+        </section>
+        <!-- icon section ends here -->
+        <!-- subscription section starts here -->
+        <section>
+            <div class="subscription">
+                <div class="sub-img"><img src="assests/2-man.png" alt="man and chart" id="sub-img">
+                </div>
+                <div class="sub-text">
+                    <div class="sub-text-one">
+                        <h1 id="sub-text-one">Subscription index</h1>
+                    </div>
+                    <div class="sub-text-two">
+                        <p id="sub-text-two">A daily dataset to keep you up to date on subscription market trends and
+                            what's happening in
+                            your vertical.</p>
+                    </div>
+                    <div class="sub-text-three"><a href="#" id="sub-text-three">Learn more</a></div>
+                </div>
+            </div>
+        </section>
+        <!-- subscription ends here -->
+        <!-- deep metrics starts here -->
+        <section>
+            <div class="metric-box">
+                <div class="metric-text">
+                    <div met-text-one>
+                        <h1 id="met-text-one">In-depth metrics</h1>
+                    </div>
+                    <div class="met-text-two">
+                        <p id="met-text-two">Accurate, real-time reporting at your fingertips. Getting data has
+                            never
+                            been easier.</p>
+                    </div>
+                    <div class="met-text-three">
+                        <a href="#" id="met-text-three">Learn more</a>
+                    </div>
+                </div>
+                <div class="metric-img"><img src="assests/3-man.png" alt="man doing metric" id="metric-img"></div>
+            </div>
+        </section>
+        <!-- deep metrics ends here -->
+        <!-- benchmark and audit section starts here -->
+        <section>
+            <div class="ben-aud-box">
+                <div class="ben-box"><img src="assests/card.png" alt="card" id="bench">
+                    <h1 id="ben-head">Benchmarks</h1>
+                    <p id="ben-text">See how you stack up against comparable companies in similar stages.</p>
+                </div>
+                <div class="price-box"><img src="assests/calculator.png" alt="calculator" id="price">
+                    <h1 id="price-head">Pricing Audit</h1>
+                    <p id="price-text">Benchmark the health of your monetization and pricing strategy.</p>
+                </div>
+                <div class="reten-box"><img src="assests/camera.png" alt="camera" id="reten">
+                    <h1 id="reten-head">Retention Audit</h1>
+                    <p id="reten-text">Audit where revenue leakage exists and where you can increase retention.</p>
+                </div>
+            </div>
+        </section>
+        <!-- benchmark and audit section ends here -->
+        <!-- plan section starts here -->
+        <section>
+            <div class="plan-box">
+                <div class="plan-text-box">
+                    <h1 id="plan-text">Get the right plan for future product.</h1>
+                </div>
+                <div class="plan-but-box">
+                    <div class="plan-but"><button type="button" id="yearly">Yearly</button>
+                        <div id="plan-but"><button type="button" id="monthly">Monthly</button></div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="starter" id="sub-hover">
+                    <p id="starter">Starter</p>
+                    <h1 id="free">Free</h1>
+                    <p id="content">1 Website <br>
+                        5 GB Hosting <br>
+                        Limited Support</p>
+                    <button type="button" id="but-one">Get Started</button>
+                </div>
+                <div class="premium">
+                    <p id="premium">Premium</p>
+                    <h1 id="paid">$29<span id="paid-span">/month</span></h1>
+                    <p class="content">10 Website <br>
+                        15 GB Hosting <br>
+                        Premium Support</p>
+                    <button type="button" id="but-two">Get Started</button>
+                </div>
+                <div class="enterprise" id="sub-hover">
+                    <p id="enterprise">Enterprise</p>
+                    <h1 id="ent-head">$49<span id="ent-span">/month</span></h1>
+                    <p id="content">Unlimited Website <br>
+                        50 GB Hosting <br>
+                        Premium Support</p>
+                    <button type="button" id="but-three">Get Started</button>
+                </div>
+            </div>
+        </section>
+        <!-- plan section ends here -->
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
