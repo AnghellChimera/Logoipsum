@@ -2,8 +2,8 @@
 // const navBut = document.getElementById("#nav-but");
 
 // hamburger.addEventListener('click', () => {
-//     hamburger.classList.toggle("active");
-//     navBut.classList.toggle('active');
+//    hamburger.classList.toggle("active");
+//      navBut.classList.toggle('active');
 // })
 
 function showmenuBar() {
